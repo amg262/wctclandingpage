@@ -1,0 +1,8 @@
+$primary: pink;
+$tertiary: yellow;
+
+$theme-colors: (
+        "tertiary": $tertiary,
+);
+
+@import "boostrap/bootstrap";
