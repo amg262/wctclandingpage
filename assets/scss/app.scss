@@ -7,6 +7,13 @@ $tertiary: #ebf2fa;
 $tertiary3: #a5ce39;
 $tertiary4: #00b6bd;
 
+$tertiary5: #6daede;
+
+$border-color: #ebf2fa;
+
+$banner-border: #ebf2fa;
+
+
 $theme-colors: (
         "primary2" : $primary2,
         "secondary":$secondary,
@@ -14,6 +21,8 @@ $theme-colors: (
         "tertiary2": $tertiary2,
         "tertiary3":$tertiary3,
         "tertiary4":$tertiary4,
+        "tertiary5":$tertiary5,
+        "banner-border":$banner-border,
 );
 
 @import "boostrap/bootstrap";
