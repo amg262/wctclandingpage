@@ -12,8 +12,9 @@ $tertiary5: #6daede;
 $border-color: #ebf2fa;
 
 $banner-border: #ebf2fa;
-
-
+$btn-font-weight: 600;
+$font-family-base: 'Karla', sans-serif;
+//$card-height:
 $theme-colors: (
         "primary2" : $primary2,
         "secondary":$secondary,
@@ -24,9 +25,22 @@ $theme-colors: (
         "tertiary5":$tertiary5,
         "banner-border":$banner-border,
 );
-$btn: (
-  "font-weight":700
-);
 
+.info-head {
+  color: $primary
+}
 
+.tab-head {
+  font-weight: 700 !important;
+  color: $primary !important;
+}
+
+.hov-text {
+  color: white !important;
+  margin-top: 30%;
+}
+
+.card-header {
+  background-color: $secondary !important;
+}
 @import "boostrap/bootstrap";
