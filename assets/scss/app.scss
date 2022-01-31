@@ -34,7 +34,9 @@ $theme-colors: (
   font-weight: 700 !important;
   color: $primary !important;
 }
-
+.tab-head.card-head {
+  font-size: 20px;
+}
 .hov-text {
   color: white !important;
   margin-top: 30%;
