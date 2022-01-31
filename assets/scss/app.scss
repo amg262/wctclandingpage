@@ -26,23 +26,27 @@ $theme-colors: (
         "banner-border":$banner-border,
 );
 
+@import "boostrap/bootstrap";
+
+
 .info-head {
   color: $primary
 }
 
 .tab-head {
-  font-weight: 700 !important;
-  color: $primary !important;
+  font-weight: 700;
+  color: $primary;
 }
+
 .tab-head.card-head {
   font-size: 20px;
 }
+
 .hov-text {
-  color: white !important;
+  color: white;
   margin-top: 30%;
 }
 
 .card-header {
-  background-color: $secondary !important;
+  background-color: $secondary;
 }
-@import "boostrap/bootstrap";
