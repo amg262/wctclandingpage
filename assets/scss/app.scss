@@ -88,5 +88,20 @@ $theme-colors: (
 }
 
 .card {
-  border: 2px solid #e2edf8;
+  border: 2px solid #d3dbe3;
+  border-radius: 10px;
+}
+
+footer label {
+  color: $secondary;
+  font-size: 20px;
+}
+
+#top-nav {
+  box-shadow: 5px 5px 3px #002b54;
+  z-index: 99;
+}
+
+a.btn, .btn-tertiary2 {
+  box-shadow: 2px 2px 2px #666666;
 }

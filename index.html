@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-dark bg-primary navbar-expand-md">
+<nav class="navbar navbar-dark bg-primary navbar-expand-md" id="top-nav">
     <a class="navbar-brand" href="#"><i class="fas fa-book"></i>&nbsp;&nbsp;WCTC Baking</a>
     <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
             class="navbar-toggler"
@@ -198,7 +198,7 @@
                 <div class="card">
                     <img alt="..." class="card-img-top" src="assets/dist/images/card1.jpg">
                     <div class="card-body">
-                        <h5 class="card-title">Baking and Pastry Management</h5>
+                        <h5 class="card-title">Baking & Pastry Management</h5>
                         <p class="card-text">
                         <p>Bakers prepare items such as breads, pastries, muffins and other items for general...</p>
                         <a class="btn btn-tertiary2"
@@ -518,14 +518,42 @@
 <!-- custom js-->
 <script src="assets/dist/js/client.js"></script>
 </body>
-<footer class="row bg-tertiary">
+<footer class="row bg-primary footer">
 
     <div class="col-lg-5">
         <br><br>
         <br><br>
         <br>
     </div>
-    <div class="col-lg-5"></div>
+    <div class="col-lg-5">
+        <br>
+        <br>
+        <form>
+            <label class="" for="text1">
+                Name
+            </label>
+            <input type="text" id="text1" placeholder="Enter name here...."/>
+            <br>
+            <label class="" for="text2">
+                Email
+            </label>
+            <input type="email" id="text2" placeholder="name@email.com"/>
+            <br>
+            <label class="" for="text3">
+                Phone
+            </label>
+            <input type="text" id="text3" placeholder="(414)-867-5309"/>
+            <br>
+
+            <br>
+            <button class="btn btn-tertiary2"><a href="#">Request Info</a></button>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+
 
 </footer>
 </html>
