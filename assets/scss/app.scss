@@ -98,10 +98,33 @@ footer label {
 }
 
 #top-nav {
-  box-shadow: 5px 5px 3px #002b54;
+  box-shadow: -2px 5px 5px #002b54;
   z-index: 99;
 }
 
 a.btn, .btn-tertiary2 {
   box-shadow: 2px 2px 2px #666666;
+}
+
+.number-square .number-content {
+  padding-left: 80px;
+  padding-top: 1%;
+}
+
+.number-square .number {
+  width: 55px;
+  height: 55px;
+  background: #1b76bc;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFDE74FF;
+  position: absolute;
+  border-radius: 50px;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 2px 6px black;
 }
