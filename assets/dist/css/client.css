@@ -5,8 +5,12 @@
     font-size: 16px;
 }
 
-.hov1:hover, .hov2:hover {
-    transform: scale(1.1);
+.hov1:hover {
+    transform: rotate(-10deg);
+}
+
+.hov2:hover {
+    transform: rotate(10deg);
 }
 
 
@@ -31,20 +35,22 @@
 
 .number-square .number-content {
     padding-left: 80px;
+    padding-top: 1%;
 }
 
 .number-square .number {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     background: #1b76bc;
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
     position: absolute;
+    border-radius: 50px;
     left: 0;
     top: 0;
 }
