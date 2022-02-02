@@ -133,3 +133,18 @@ a.btn, .btn-tertiary2 {
   margin:0;
   padding: 0;
 }
+
+.btn.btn-tertiary2.custom-button {
+  background-color: Transparent;
+  border-color: $primary;
+  box-shadow: $primary;
+}
+
+.btn-outline-tertiary2, .btn-outline-tertiary2 a {
+  color:$tertiary2;
+  padding: 10px 10px;
+}
+.btn-outline-tertiary2, .btn-outline-tertiary2 a:hover {
+  color:$primary;
+  font-weight: 100;
+}
