@@ -150,3 +150,22 @@ a.btn, .btn-tertiary2 {
   color: $primary;
   font-weight: 100;
 }
+.btn.btn-tertiary2.custom-button.readmore {
+  background-color: Transparent;
+  border-color: #e2edf8 !important;
+  box-shadow: $primary;
+}
+.readmore a {
+  border-color: #e2edf8 !important;
+
+}
+
+.btn-outline-tertiary2, .btn-outline-tertiary2.readmore a {
+  color: $secondary;
+  padding: 10px 10px;
+}
+
+.btn-outline-tertiary2, .btn-outline-tertiary2.readmore a:hover {
+  color: $primary;
+  font-weight: 100;
+}
